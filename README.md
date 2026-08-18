@@ -15,9 +15,7 @@ The official PyTorch implementation will be released here.
 
 ## Framework
 
-<p align="center">
-  <img src="figure/fig2.png" width="100%">
-</p>
+![image](./figure/fig2.png)
 
 PCDFusion adopts a two-stage framework for common-distinct feature decoupling and complementary infrared-visible image fusion.
 
@@ -31,9 +29,7 @@ The core idea of PCAM is to decompose query and key representations according to
 
 ### Fusion Comparison
 
-<p align="center">
-  <img src="figure/fig4.png" width="100%">
-</p>
+![image](./figure/fig4.png)
 
 Qualitative comparisons are conducted on the **MSRS, M3FD, RoadScene, and HDO** datasets.
 
@@ -43,9 +39,7 @@ Compared with representative infrared-visible image fusion methods, PCDFusion ef
 
 #### Object Detection
 
-<p align="center">
-  <img src="figure/fig8.png" width="100%">
-</p>
+![image](./figure/fig8.png)
 
 We further evaluate the influence of different fusion methods on downstream object detection using **YOLOv10** on the **M3FD** dataset.
 
@@ -53,9 +47,7 @@ PCDFusion preserves target contours and salient infrared responses while retaini
 
 #### Semantic Segmentation
 
-<p align="center">
-  <img src="figure/fig9.png" width="100%">
-</p>
+![image](./figure/fig9.png)
 
 Semantic segmentation experiments are conducted using **SegFormer** on the **FMB** dataset.
 
